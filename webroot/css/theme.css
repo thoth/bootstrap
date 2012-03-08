@@ -1,0 +1,16 @@
+body { padding-top:60px; padding-bottom:40px; }
+.remove-margins { margin:0; }
+.remove-padding { padding:0; }
+.remove-lineheight { line-height:normal!important; }
+.search-box { padding-top:7px; }
+.col img,.home-block img { background:url(../img/bg_colimg.gif) no-repeat 0 0; padding:12px; }
+footer a { color:#555; text-decoration:underline; }
+footer a:hover { color:#940000; text-decoration:underline; }
+footer ul { float:right; padding:0; }
+footer li { display:inline; margin:0 0 0 10px; padding:0; list-style:none; }
+.social-like-links { padding-top:7px; }
+.hero-unit { background-image:url(http://placesheen.com/1100/350); background-position:center; background-repeat:no-repeat; color:white; }
+.hero-unit h1 { color:#FFCC66; text-align:right; margin-left:300px; }
+.hero-unit p { text-align:right; }
+.hero-unit p a { font-weight:bold; }
+.promoted .node { min-height:150px; }

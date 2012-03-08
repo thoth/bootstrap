@@ -1,0 +1,15 @@
+name: Bootstrap
+description: Theme based on Twitter Bootstrap for Croogo
+screenshot: screenshot.png
+
+author: Thomas Rader
+authorEmail: thomas.rader@tigerclawtech.com
+authorUrl: http://tigerclawtech.com
+
+menus:
+  - main
+  - footer
+
+regions:
+  - right
+  
