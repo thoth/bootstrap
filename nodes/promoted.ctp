@@ -4,13 +4,13 @@
             __('No items found.');
         } else {
             foreach ($this->params['named'] AS $nn => $nv) {
-                $paginator->options['url'][$nn] = $nv;
+                $this->Paginator->options['url'][$nn] = $nv;
             }
         }
     ?>
       <div class="row-fluid">
 
-    <?php 
+    <?php
     	//keep counter and wrap after every 3
     	$block_num = 0;
         foreach ($nodes AS $node) {
@@ -28,16 +28,16 @@
 	        ?>
         </div>
 
-    <?php 
+    <?php
 	    	$block_num++;
         }
     	if($block_num % 3 == 0){
     		echo '</div><div class="row-fluid">';
     	}
-        
-        
+
+
     ?>
-		<div class="span4 paging"><?php echo $paginator->numbers(); ?></div>
+		<div class="span4 paging"><?php echo $this->Paginator->numbers(); ?></div>
       </div>
 
     </div>

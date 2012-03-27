@@ -7,9 +7,9 @@
           <a class="brand" href="/"><?php echo Configure::read('Site.title'); ?></a>
           <div class="nav-collapse">
           	<?php
-          		echo $layout->menu('main', array('dropdown'=>true, 'dropdownClass'=>'nav'));
+          		echo $this->Layout->menu('main', array('dropdown'=>true, 'dropdownClass'=>'nav'));
           	?>
-          	
+
           	 <div class="navbar-text pull-right remove-lineheight">
 				<form id="searchform" method="post" class="form-search remove-margins search-box" action="javascript: document.location.href=''+Croogo.basePath+'search/q:'+encodeURI($('#searchform #q').val());">
 					<div class="control-group remove-margins">
@@ -22,7 +22,7 @@
 					</div>
 				</form>
           	 </div>
-          	
+
 	       	<div class="social-like-links pull-right remove-lineheight">
           	<?php
           		//if you are using the way cool SEO plugin for Croogo, uncomment the following
