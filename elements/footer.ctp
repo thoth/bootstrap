@@ -5,7 +5,7 @@
         	</div>
 	      	<div class="span9">
           	<?php
-          		echo $layout->menu('footer', array( 'dropdownClass'=>'nav'));
+          		echo $this->Layout->menu('footer', array( 'dropdownClass'=>'nav'));
           	?>
         	</div>
         </div>
